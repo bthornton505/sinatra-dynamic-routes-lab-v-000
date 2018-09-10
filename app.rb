@@ -33,8 +33,9 @@ class App < Sinatra::Base
     
     answer = "Unable to perform this function."
     
-    case :operation
-      when 
+    case params[:operation]
+      when add 
+        
   end 
   
 end
